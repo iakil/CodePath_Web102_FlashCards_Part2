@@ -1,0 +1,88 @@
+.wholebody{
+  background-image: url("images/background1.jpeg");
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  margin: -10px; 
+  text-align: center;
+  padding: 100px;
+  }
+
+.container{
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 300px;
+  width: 600px;
+  margin: 2rem auto;
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 5px 1px 15px rgb(169, 236, 76);
+  cursor: pointer;
+}
+
+.button{
+  width: 50px;
+  height: 40px;
+  box-shadow: 5px 1px 15px rgb(255, 238, 0);
+  
+}
+
+.button:hover{
+  background-color: rgb(31, 6, 254);
+
+}
+
+.Red{
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 300px;
+  width: 600px;
+  margin: 2rem auto;
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 5px 1px 15px #C9EEFF;
+  background-color: #EBC7E6;
+}
+
+.Green{
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 300px;
+  width: 600px;
+  margin: 2rem auto;
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 5px 1px 15px rgb(169, 236, 76);
+  background-color: rgba(5, 249, 131, 0.7);
+  --rotate-X: 180deg;
+}
+
+.Yellow{
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 300px;
+  width: 600px;
+  margin: 2rem auto;
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 5px 1px 15px rgb(169, 236, 76);
+  background-color: rgba(246, 246, 6, 0.7);
+}
+
